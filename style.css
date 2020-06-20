@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #837D8C;
+  font-size: 50px;
+}
+
+header {
+  background-color: #ffcad4;
+  text-align: center;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #9d97b6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+main {
+  text-align: center;
+  margin: 25px;
+  width: auto;
+  padding: 25px;
+
+}
+
+ul {
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #8e9aaf;
+}
+
+p {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #8e9aaf;
+}
+
+.center {
+  text-align: center;
+}
+
+/* this brings the list bullets/numbers in closer together*/
+.list {
+  margin: 0 auto;
+  width: 220px;
+}
+
+body {
+  background-color: #dad2d8;
+}
+
+article {
+  background-color:#F4E8E2;
+}
+
+/* this makes the edges of the boxes rounder */
+.round {
+  border-radius: 50px;
+  width: 95%;
+  padding: 5px;
+  margin: 30px 30px;
+  text-align: center; 
+}
+
+img {
+  width: 15%;
+  height: 15%;
+}
+
+container {
+  align: center;
+  display: inline-block;
+}
+
+a:link {
+  color:#73a942; 
+  }
+a:visited {
+  color: #bdb2ff;
+  }
+a:hover {
+  color: #ffc6ff;
+  }
+a:active {
+  color: #02c39a; 
+  }
