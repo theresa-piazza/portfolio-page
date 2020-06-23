@@ -2,16 +2,19 @@
   box-sizing: border-box;
 }
 
+/* here is the color and size for my h1 tag */
 h1 {
   color: #837D8C;
   font-size: 50px;
 }
 
+/* background color for header */
 header {
   background-color: #ffcad4;
   text-align: center;
 }
 
+/* color, size, font, text-align for h2 and h3 */
 h2, h3 {
   text-align: center;
   color: #9d97b6;
@@ -33,6 +36,7 @@ ul {
   color: #8e9aaf;
 }
 
+/* font, size, and color for the text in the paragraph tags */
 p {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -46,7 +50,8 @@ p {
 /* this brings the list bullets/numbers in closer together*/
 .list {
   margin: 0 auto;
-  width: 220px;
+  width: 250px;
+  padding: 10px;
 }
 
 body {
@@ -66,9 +71,10 @@ article {
   text-align: center; 
 }
 
+/* the image is sized to be smaller than its full size */
 img {
-  width: 15%;
-  height: 15%;
+  width: 25%;
+  height: 25%;
 }
 
 container {
@@ -76,6 +82,7 @@ container {
   display: inline-block;
 }
 
+/* these are the psuedo classes that dictate the colors of my links */
 a:link {
   color:#73a942; 
   }
